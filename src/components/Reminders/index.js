@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import reminderImage from "./Reminder.png";
 
 //const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001/";
-const API_URL = "https://zen-energise.herokuapp.com/"|| "http://localhost:3001/"
+const API_URL = "https://zen-ergise.herokuapp.com/"|| "http://localhost:3001/"
 export default function Reminders({ id }) {
   const [reminder, setReminder] = useState("");
 
